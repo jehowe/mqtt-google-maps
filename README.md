@@ -1,5 +1,5 @@
 # mqtt-google-maps
-Purpose:  Setup client Device(s) to report location data using the MQTT protocol in lat-lon to a server which will them retrieve the 'city, state, country' data from the google-maps api.  This is useful if you want to post periodic city precision level tracking to a website or service.
+Purpose:  Setup client device(s) to report location data using the MQTT protocol in lat-lon to a server which will them retrieve the 'city, state, country' data from the google-maps api.  This is useful if you want to post periodic city precision level tracking to a website or service.
 
 Owntracks is an awesome open source smartphone location app which is installed on the client phone in order to send data to a MQTT broker.
 The PHP script will kick off a request to a locally installed mosquitto_sub client to return the latest data
